@@ -142,7 +142,6 @@ h6 {
 	font-weight: 500;
 	font-size: 15px;
 	line-height: 41px;
-	align-items: center;
 	color: #fb8f1d;
 	width: 132px;
 	height: 44px;
@@ -232,12 +231,16 @@ span {
 	background: #fb8f1d;
 	color: #fff;
 }
-.about__img {
-}
+
 .about {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 295px;
+}
+.about__img {
+	position: relative;
+	left: -70px;
+	margin-right: 113px;
 }
 .about__info {
 	position: relative;
@@ -257,3 +260,22 @@ span {
 	line-height: 30px;
 	color: #7d7987;
 }
+.about__btn  {
+	font-family: "Inter";
+	cursor: default;
+	display: inline-block;
+	border: 1px solid #fb8f1d;
+	border-radius: 8px;
+	width: 164px;
+	height: 60px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 60px;
+	color: #fb8f1d;
+	text-align: center;
+	margin-right: 18px;
+	
+}
+.about__btn:hover {
+	background: #fb8f1d;
+	color: #fff;}
