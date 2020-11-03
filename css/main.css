@@ -29,7 +29,7 @@ aside {
 
 html,
 body {
-	font-family: Inter;
+	font-family: "Inter";
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
@@ -236,6 +236,7 @@ span {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 295px;
+	margin-bottom: 290px;
 }
 .about__img {
 	position: relative;
@@ -260,7 +261,7 @@ span {
 	line-height: 30px;
 	color: #7d7987;
 }
-.about__btn  {
+.about__btn {
 	font-family: "Inter";
 	cursor: default;
 	display: inline-block;
@@ -274,8 +275,51 @@ span {
 	color: #fb8f1d;
 	text-align: center;
 	margin-right: 18px;
-	
 }
 .about__btn:hover {
 	background: #fb8f1d;
-	color: #fff;}
+	color: #fff;
+}
+.dest {
+	max-width: 1120px;
+	margin: 0 auto;
+}
+.dest__title {
+	display: flex;
+	justify-content: space-between;
+}
+.title__lnk {
+	padding-right: 20px;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 60px;
+	color: #fb8f1d;
+}
+.title__txt {
+	font-family: "Playfair+Display";
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 50px;
+}
+.guides {
+	max-width: 1120px;
+	margin-top: 170px;
+	display: flex;
+	justify-content: space-between;
+}
+.guides__info {
+	width: 480px;
+}
+.guides__title {
+	font-family: "Playfair+Display";
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 50px;
+}
+.guides__txt {
+	font-family: "Mulish";
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 30px;
+	color: #7d7987;
+}
