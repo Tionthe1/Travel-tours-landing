@@ -122,8 +122,6 @@ h6 {
 }
 .menu__list-item a {
 	color: #b8becd;
-	font-family: "Inter";
-	font-style: normal;
 	padding-right: 35px;
 	font-weight: 500;
 	font-size: 16px;
@@ -134,13 +132,10 @@ h6 {
 	cursor: default;
 }
 .reg__btn {
-	font-family: "Inter";
-	cursor: default;
 	display: inline-block;
 	border: 1px solid #fb8f1d;
 	border-radius: 8px;
 	font-weight: 500;
-	font-size: 15px;
 	line-height: 41px;
 	color: #fb8f1d;
 	width: 132px;
@@ -262,7 +257,6 @@ span {
 	color: #7d7987;
 }
 .about__btn {
-	font-family: "Inter";
 	cursor: default;
 	display: inline-block;
 	border: 1px solid #fb8f1d;
@@ -303,9 +297,10 @@ span {
 }
 .guides {
 	max-width: 1120px;
-	margin-top: 170px;
+
 	display: flex;
 	justify-content: space-between;
+	margin: 170px auto;
 }
 .guides__info {
 	width: 480px;
@@ -322,4 +317,21 @@ span {
 	font-size: 17px;
 	line-height: 30px;
 	color: #7d7987;
+}
+.guides__btn {
+	display: inline-block;
+	border: 1px solid #fb8f1d;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 46px;
+	color: #fb8f1d;
+	width: 164px;
+	height: 48px;
+	text-align: center;
+	margin-right: 18px;
+}
+.guides__btn:hover {
+	background: #fb8f1d;
+	color: #fff;
 }
