@@ -232,6 +232,7 @@ span {
 	justify-content: space-between;
 	margin-top: 295px;
 	margin-bottom: 290px;
+	background: url("../img/element3.png") 53% 15% no-repeat fixed;
 }
 .about__img {
 	position: relative;
