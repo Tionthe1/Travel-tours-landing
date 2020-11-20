@@ -230,9 +230,9 @@ span {
 .about {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 295px;
+	padding-top: 300px;
 	margin-bottom: 290px;
-	background: url("../img/element3.png") 53% 15% no-repeat fixed;
+	background: url("../img/element3.png") 55% 30% no-repeat , url("../img/element.png") 90% 77% no-repeat;
 }
 .about__img {
 	position: relative;
@@ -240,6 +240,7 @@ span {
 	margin-right: 113px;
 }
 .about__info {
+	padding-top: 90px;
 	position: relative;
 	width: 480px;
 }
@@ -257,16 +258,19 @@ span {
 	line-height: 30px;
 	color: #7d7987;
 }
+.about__txt p {
+	margin-bottom: 47px;
+}
 .about__btn {
 	cursor: default;
 	display: inline-block;
 	border: 1px solid #fb8f1d;
 	border-radius: 8px;
 	width: 164px;
-	height: 60px;
+	height: 48px;
 	font-weight: 600;
 	font-size: 16px;
-	line-height: 60px;
+	line-height: 45px;
 	color: #fb8f1d;
 	text-align: center;
 	margin-right: 18px;
